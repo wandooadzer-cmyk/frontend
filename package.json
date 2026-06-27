@@ -2,19 +2,21 @@
   "name": "heliobond-frontend",
   "private": true,
   "version": "0.1.0",
-  "description": "Heliobond — sunlight made financial. Investor app for a green-bond pool on Stellar.",
+  "description": "Heliobond \u2014 sunlight made financial. Investor app for a green-bond pool on Stellar.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@creit.tech/stellar-wallets-kit": "^2.3.0",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",
+    "dotenv": "^8.2.0",
     "next": "^16.2.9",
     "next-intl": "^4.13.0",
+    "node-fetch": "^3.3.2",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "three": "^0.184.0"
